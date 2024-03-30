@@ -16,7 +16,7 @@ export default function Header() {
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-evenly",
-        gap: 10,
+        gap: 15,
         alignItems: "center",
       }}
     >
