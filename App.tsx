@@ -29,7 +29,6 @@ export default function App() {
     })();
   }, []);
 
-  const [text, setText] = useState<string>();
   return (
     <View style={styles.container}>
       <UserLocationContext.Provider value={{ location, setLocation }}>

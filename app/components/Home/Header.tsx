@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
   },
   searchBar: {
     borderWidth: 1,
-    borderColor: Colors.black,
+    borderColor: Colors.BLACK,
     padding: 4,
     borderRadius: 50,
     paddingLeft: 10,
