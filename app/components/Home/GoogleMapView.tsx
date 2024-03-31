@@ -22,9 +22,8 @@ export default function GoogleMapView() {
         longitudeDelta: 0.0421,
       });
     }
-  }, []);
+  }, [location]);
 
-  console.log("l:", location);
   return (
     <View style={{ marginTop: 20 }}>
       <Text

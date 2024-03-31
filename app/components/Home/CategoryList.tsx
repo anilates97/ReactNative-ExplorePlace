@@ -8,7 +8,11 @@ import {
 import React from "react";
 import CategoryItem from "./CategoryItem";
 
-const CategoryList = () => {
+interface Props {
+  setSelectedCategory: any;
+}
+
+const CategoryList = ({ setSelectedCategory }: Props) => {
   const categoryList = [
     {
       id: 1,
@@ -39,7 +43,7 @@ const CategoryList = () => {
         data={categoryList}
         style={{ marginTop: 5 }}
         renderItem={({ item }) => (
-          <TouchableOpacity onPress={() => console.log(item.name)}>
+          <TouchableOpacity onPress={() => setSelectedCategory(item.value)}>
             <CategoryItem category={item} />
           </TouchableOpacity>
         )}
