@@ -18,7 +18,7 @@ export default function PlaceList({ placeList }: Props) {
   const navigator = useNavigation<any>();
 
   const onPlaceClick = (item: any) => {
-    navigator.navigate("place-detail");
+    navigator.navigate("place-detail", { place: item });
   };
 
   return (

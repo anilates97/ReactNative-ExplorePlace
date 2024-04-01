@@ -21,7 +21,7 @@ export default function TabNavigation() {
         name="Home"
         component={HomeNavigation}
         options={{
-          tabBarLabel: "Home",
+          tabBarLabel: "Anasayfa",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="home" color={color} size={size} />
           ),
@@ -31,7 +31,7 @@ export default function TabNavigation() {
         name="Fav"
         component={Fav}
         options={{
-          tabBarLabel: "Fav",
+          tabBarLabel: "Favoriler",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="heart" color={color} size={size} />
           ),
@@ -41,7 +41,7 @@ export default function TabNavigation() {
         name="Search"
         component={Search}
         options={{
-          tabBarLabel: "Search",
+          tabBarLabel: "Arama",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="search" color={color} size={size} />
           ),
@@ -51,7 +51,7 @@ export default function TabNavigation() {
         name="Profile"
         component={Profile}
         options={{
-          tabBarLabel: "Profile",
+          tabBarLabel: "Profil",
           tabBarIcon: ({ color, size }) => (
             <FontAwesome name="user-circle-o" color={color} size={size} />
           ),

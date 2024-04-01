@@ -1,4 +1,5 @@
 export default {
+  PRIMARY: "#d46dfc",
   BLACK: "#000",
   GRAY: "#f0f0f0",
   WHITE: "#fff",
