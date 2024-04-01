@@ -51,7 +51,7 @@ export default function PlaceDetailItem({ place, onDirectionClick }: Props) {
         style={{ fontSize: 16, marginTop: 10, color: Colors.DARK_GRAY }}
         numberOfLines={2}
       >
-        {place?.vicinity}
+        {place?.vicinity ? place.vicinity : place?.formatted_address}
       </Text>
 
       {place?.opening_hours ? (
